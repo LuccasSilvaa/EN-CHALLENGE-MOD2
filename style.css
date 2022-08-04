@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: #F1B641;
+}
+/*header*/
+.nav-bar{
+  display: block;
+  margin: auto;
+  margin-top: 1.5rem;
+  border-radius: 50px;
+  width: 90%;
+  height: 3rem;
+  background-color: #FDEDD5;
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+  align-items: center;
+  font-family: 'Courgette', cursive;
+}
+
+.nav-bar img{
+  width: 2rem;
+}
+
+/*main*/
+
+figure img{
+  display: block;
+  margin: auto;
+  width: 9rem;
+}
+
+.intensity-value{
+  width: 90%;
+  display: flex;
+  margin: auto;
+  margin-top: 1.5rem;
+  justify-content: space-between;
+}
+
+.descrition{
+  width: 90%;
+  height: 7rem;
+  display: block;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: auto;
+  margin-top: 1rem;
+  font-size: 0.7rem;
+  font-family: 'Nanum Gothic', sans-serif;
+}
+
+.descrition-one{
+  height: 2.4rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.descrition-two{
+  height: 3.4rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.product-select{
+  width: 90%;
+  display: block;
+  margin: auto;
+  margin-top: 1rem;
+  display: flex;
+  justify-content: space-around;
+  font-family: 'Nanum Gothic', sans-serif;
+}
+.the-amount{
+  width: 90%;
+  background-color: #F1B641;
+  display: block;
+  margin: auto;
+  margin-top: 1.5rem;
+  display: flex;
+  justify-content: space-around;
+  border: solid black;
+  border-radius: 50px;
+}
+button{
+  display: block;
+  margin: auto;
+  margin-top: 1rem;
+  width: 90%;
+  height: 2rem;
+  border-radius: 50px;
+  color: #FDEDD5;
+  background-color: black;
+}
