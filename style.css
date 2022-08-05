@@ -80,6 +80,26 @@ figure img{
   justify-content: space-around;
   font-family: 'Nanum Gothic', sans-serif;
 }
+
+div input{
+  display: none;
+}
+label::before {
+  content: '';
+  display: inline-block;
+  width: 15px;
+  height: 15px; 
+  margin: 0 5px -3.5px 0;
+  border-radius: 50%;
+  border: solid 1px #000;
+  cursor: pointer;
+  transition: 0.2s ease-in-out; 
+  background-color: #F1B641; 
+}
+input:checked + label::before { 
+  background-color: #000; 
+}
+/*Footer*/
 .the-amount{
   width: 90%;
   background-color: #F1B641;
